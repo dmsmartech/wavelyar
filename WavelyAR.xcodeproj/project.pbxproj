@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FF7C099420EFDBB87A4F91 /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA5039FCF6A35B0E7B54F4 /* ScaleButtonStyle.swift */; };
+		08F80914A7758DDFFB73EF3B /* HandGestureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8F5A0192FBCEB4D311EC8C /* HandGestureService.swift */; };
+		19E1296E92B874802DC8158F /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0959B239D5F7F5DDDF20F39 /* MainListView.swift */; };
+		22DEE7F91F7E165C7F3208D6 /* OAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADCCE01B789652272F235C /* OAuthView.swift */; };
+		288EC16F7E36121235D3BD6A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3CB988F5F924B2122F4B6 /* SettingsView.swift */; };
+		2CCE761A4F9365CCBA28C32D /* HARestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0EA4DE7AACA4E2841F6E6 /* HARestService.swift */; };
+		37BD8A8B586D5C1E39DA1FDA /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5C7729C61F5C1CF4D95B9 /* DiscoveryView.swift */; };
+		3988D745BFE6E1A576457DCE /* ARDeviceAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF7BB8157BD3D5DC9BCB102 /* ARDeviceAnchor.swift */; };
+		3A18477FBD2479C3DAF7603D /* DeviceBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF888150B717E8E82CF51FEC /* DeviceBubbleView.swift */; };
+		3ED209AA6B65F5A1C78BA2F8 /* WavelyInputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0C981DAEA5FD5EDC315B5 /* WavelyInputFields.swift */; };
+		4142E74949343FF1B57191E3 /* HandSkeletonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189131CF67B1CFFD2853F723 /* HandSkeletonOverlay.swift */; };
+		414DC9C3A8D2287D9465B071 /* ARCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0271C2A80183E1FBAE494B /* ARCoordinator.swift */; };
+		446D77E5123CAFFBB4D9525B /* ARPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F85D19B81E8DAB87A2BA0 /* ARPersistenceService.swift */; };
+		4860E3A3A9A74F3C3807324F /* WavelyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7E9AFAE42A79139F1E959 /* WavelyARView.swift */; };
+		48A9DF11241784B277F29BAD /* DeviceDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65C5FCD2DD77FEA7D0091C /* DeviceDetailSheet.swift */; };
+		4BB424D2F14BE5DF8ADD2EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A48696FE50BCF3B5BA8946 /* Assets.xcassets */; };
+		56B9637A7FCF587C6AA9E9AE /* HAWebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847CA8B009FD03673B5F4089 /* HAWebSocketService.swift */; };
+		6F41503566946B440183D5A8 /* HAConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909DC419EF9551007F26B21 /* HAConfig.swift */; };
+		73757348095E1EAE17952CED /* WavelyARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50CBE82CCFFA7AC4A56C9E /* WavelyARApp.swift */; };
+		916E53C6465C91F2143D514C /* LaserRayOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA4D24279ECFCB8CE08AF07 /* LaserRayOverlay.swift */; };
+		9E8AE6D1E148EB9D52C7BDA2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1837EBF0D287306A44C6A3 /* SplashView.swift */; };
+		B0990C6521E5007F053B2AF3 /* HADevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A94370BBDEDCE2833B636ED /* HADevice.swift */; };
+		B431F05EC31F5B78762E6D13 /* AuraOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96211ACCED5CDA2CF672DD4 /* AuraOverlay.swift */; };
+		B8809227A00A2C8EE18B8932 /* HAOAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61349AE38CC0553F65B413FB /* HAOAuthService.swift */; };
+		E261C5275115C63BE55B8614 /* WavelyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06997362AB199BD1405D51E /* WavelyButton.swift */; };
+		F9CF2D297BBE3152A613EA19 /* HADiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F858E102A93374E5FE8FA7C /* HADiscoveryService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		189131CF67B1CFFD2853F723 /* HandSkeletonOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSkeletonOverlay.swift; sourceTree = "<group>"; };
+		1E65C5FCD2DD77FEA7D0091C /* DeviceDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailSheet.swift; sourceTree = "<group>"; };
+		25ADCCE01B789652272F235C /* OAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthView.swift; sourceTree = "<group>"; };
+		3A94370BBDEDCE2833B636ED /* HADevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HADevice.swift; sourceTree = "<group>"; };
+		42E0C981DAEA5FD5EDC315B5 /* WavelyInputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavelyInputFields.swift; sourceTree = "<group>"; };
+		49C5C7729C61F5C1CF4D95B9 /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
+		4EFA5039FCF6A35B0E7B54F4 /* ScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonStyle.swift; sourceTree = "<group>"; };
+		5F4F85D19B81E8DAB87A2BA0 /* ARPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPersistenceService.swift; sourceTree = "<group>"; };
+		61349AE38CC0553F65B413FB /* HAOAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAOAuthService.swift; sourceTree = "<group>"; };
+		7A0271C2A80183E1FBAE494B /* ARCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCoordinator.swift; sourceTree = "<group>"; };
+		7B8F5A0192FBCEB4D311EC8C /* HandGestureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureService.swift; sourceTree = "<group>"; };
+		847CA8B009FD03673B5F4089 /* HAWebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAWebSocketService.swift; sourceTree = "<group>"; };
+		8909DC419EF9551007F26B21 /* HAConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAConfig.swift; sourceTree = "<group>"; };
+		8F858E102A93374E5FE8FA7C /* HADiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HADiscoveryService.swift; sourceTree = "<group>"; };
+		9AD0EA4DE7AACA4E2841F6E6 /* HARestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARestService.swift; sourceTree = "<group>"; };
+		A9B7B243932524EF2CDFCA01 /* WavelyAR.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WavelyAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA4D24279ECFCB8CE08AF07 /* LaserRayOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserRayOverlay.swift; sourceTree = "<group>"; };
+		B96211ACCED5CDA2CF672DD4 /* AuraOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraOverlay.swift; sourceTree = "<group>"; };
+		C06997362AB199BD1405D51E /* WavelyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavelyButton.swift; sourceTree = "<group>"; };
+		C6A48696FE50BCF3B5BA8946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA7E9AFAE42A79139F1E959 /* WavelyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavelyARView.swift; sourceTree = "<group>"; };
+		D5C3CB988F5F924B2122F4B6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DF50CBE82CCFFA7AC4A56C9E /* WavelyARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavelyARApp.swift; sourceTree = "<group>"; };
+		E0959B239D5F7F5DDDF20F39 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		EC1837EBF0D287306A44C6A3 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EF888150B717E8E82CF51FEC /* DeviceBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceBubbleView.swift; sourceTree = "<group>"; };
+		FEF7BB8157BD3D5DC9BCB102 /* ARDeviceAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDeviceAnchor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00BBCEAD85B481EC2CCE14A3 /* WavelyAR */ = {
+			isa = PBXGroup;
+			children = (
+				C6A48696FE50BCF3B5BA8946 /* Assets.xcassets */,
+				DF759DB6951827F467E45EC9 /* App */,
+				86550444808E3BAD852EB11C /* Models */,
+				75419822D0EF35263841FC1D /* Resources */,
+				43992229DF32AB226039B487 /* Services */,
+				7AE468D075954EF0B692BADD /* Views */,
+			);
+			path = WavelyAR;
+			sourceTree = "<group>";
+		};
+		25CEA154A20BDEB150C26892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7B243932524EF2CDFCA01 /* WavelyAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5D46DBE4900FF68F9F6FBA = {
+			isa = PBXGroup;
+			children = (
+				00BBCEAD85B481EC2CCE14A3 /* WavelyAR */,
+				25CEA154A20BDEB150C26892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43992229DF32AB226039B487 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F4F85D19B81E8DAB87A2BA0 /* ARPersistenceService.swift */,
+				8F858E102A93374E5FE8FA7C /* HADiscoveryService.swift */,
+				7B8F5A0192FBCEB4D311EC8C /* HandGestureService.swift */,
+				61349AE38CC0553F65B413FB /* HAOAuthService.swift */,
+				9AD0EA4DE7AACA4E2841F6E6 /* HARestService.swift */,
+				847CA8B009FD03673B5F4089 /* HAWebSocketService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4EF14332BF64F0ECFA003A00 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				49C5C7729C61F5C1CF4D95B9 /* DiscoveryView.swift */,
+				25ADCCE01B789652272F235C /* OAuthView.swift */,
+				EC1837EBF0D287306A44C6A3 /* SplashView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		75419822D0EF35263841FC1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AE468D075954EF0B692BADD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E65C5FCD2DD77FEA7D0091C /* DeviceDetailSheet.swift */,
+				D5C3CB988F5F924B2122F4B6 /* SettingsView.swift */,
+				9F7D99B0D38CFC2084DAAED2 /* AR */,
+				B5C47FCE4DDCDE0DA28BC01E /* Components */,
+				CA53EC592BCCD85D56B86AC8 /* Main */,
+				4EF14332BF64F0ECFA003A00 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86550444808E3BAD852EB11C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEF7BB8157BD3D5DC9BCB102 /* ARDeviceAnchor.swift */,
+				8909DC419EF9551007F26B21 /* HAConfig.swift */,
+				3A94370BBDEDCE2833B636ED /* HADevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F7D99B0D38CFC2084DAAED2 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				7A0271C2A80183E1FBAE494B /* ARCoordinator.swift */,
+				B96211ACCED5CDA2CF672DD4 /* AuraOverlay.swift */,
+				EF888150B717E8E82CF51FEC /* DeviceBubbleView.swift */,
+				189131CF67B1CFFD2853F723 /* HandSkeletonOverlay.swift */,
+				AFA4D24279ECFCB8CE08AF07 /* LaserRayOverlay.swift */,
+				CBA7E9AFAE42A79139F1E959 /* WavelyARView.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		B5C47FCE4DDCDE0DA28BC01E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA5039FCF6A35B0E7B54F4 /* ScaleButtonStyle.swift */,
+				C06997362AB199BD1405D51E /* WavelyButton.swift */,
+				42E0C981DAEA5FD5EDC315B5 /* WavelyInputFields.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CA53EC592BCCD85D56B86AC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E0959B239D5F7F5DDDF20F39 /* MainListView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DF759DB6951827F467E45EC9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DF50CBE82CCFFA7AC4A56C9E /* WavelyARApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450C86D6EA9FEA858F0BFFF6 /* WavelyAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D66567C70E1E9B136B525EB /* Build configuration list for PBXNativeTarget "WavelyAR" */;
+			buildPhases = (
+				307F95A97194BA5623584E9D /* Sources */,
+				061FA287646CAC6339548EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WavelyAR;
+			packageProductDependencies = (
+			);
+			productName = WavelyAR;
+			productReference = A9B7B243932524EF2CDFCA01 /* WavelyAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2DE12BFF60E825507B5F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					450C86D6EA9FEA858F0BFFF6 = {
+						DevelopmentTeam = HX76U69ZZ8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A00FD258964BBC084D55629C /* Build configuration list for PBXProject "WavelyAR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2B5D46DBE4900FF68F9F6FBA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25CEA154A20BDEB150C26892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450C86D6EA9FEA858F0BFFF6 /* WavelyAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061FA287646CAC6339548EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB424D2F14BE5DF8ADD2EB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307F95A97194BA5623584E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414DC9C3A8D2287D9465B071 /* ARCoordinator.swift in Sources */,
+				3988D745BFE6E1A576457DCE /* ARDeviceAnchor.swift in Sources */,
+				446D77E5123CAFFBB4D9525B /* ARPersistenceService.swift in Sources */,
+				B431F05EC31F5B78762E6D13 /* AuraOverlay.swift in Sources */,
+				3A18477FBD2479C3DAF7603D /* DeviceBubbleView.swift in Sources */,
+				48A9DF11241784B277F29BAD /* DeviceDetailSheet.swift in Sources */,
+				37BD8A8B586D5C1E39DA1FDA /* DiscoveryView.swift in Sources */,
+				6F41503566946B440183D5A8 /* HAConfig.swift in Sources */,
+				B0990C6521E5007F053B2AF3 /* HADevice.swift in Sources */,
+				F9CF2D297BBE3152A613EA19 /* HADiscoveryService.swift in Sources */,
+				B8809227A00A2C8EE18B8932 /* HAOAuthService.swift in Sources */,
+				2CCE761A4F9365CCBA28C32D /* HARestService.swift in Sources */,
+				56B9637A7FCF587C6AA9E9AE /* HAWebSocketService.swift in Sources */,
+				08F80914A7758DDFFB73EF3B /* HandGestureService.swift in Sources */,
+				4142E74949343FF1B57191E3 /* HandSkeletonOverlay.swift in Sources */,
+				916E53C6465C91F2143D514C /* LaserRayOverlay.swift in Sources */,
+				19E1296E92B874802DC8158F /* MainListView.swift in Sources */,
+				22DEE7F91F7E165C7F3208D6 /* OAuthView.swift in Sources */,
+				07FF7C099420EFDBB87A4F91 /* ScaleButtonStyle.swift in Sources */,
+				288EC16F7E36121235D3BD6A /* SettingsView.swift in Sources */,
+				9E8AE6D1E148EB9D52C7BDA2 /* SplashView.swift in Sources */,
+				73757348095E1EAE17952CED /* WavelyARApp.swift in Sources */,
+				4860E3A3A9A74F3C3807324F /* WavelyARView.swift in Sources */,
+				E261C5275115C63BE55B8614 /* WavelyButton.swift in Sources */,
+				3ED209AA6B65F5A1C78BA2F8 /* WavelyInputFields.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		096438A28B036820E96947D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HX76U69ZZ8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		578F3A15507DDFB0741FDC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HX76U69ZZ8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9B115F366D85522027B241B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HX76U69ZZ8;
+				INFOPLIST_FILE = WavelyAR/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wavely.ar;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8447D10E01A974358777455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HX76U69ZZ8;
+				INFOPLIST_FILE = WavelyAR/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wavely.ar;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D66567C70E1E9B136B525EB /* Build configuration list for PBXNativeTarget "WavelyAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8447D10E01A974358777455 /* Debug */,
+				C9B115F366D85522027B241B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A00FD258964BBC084D55629C /* Build configuration list for PBXProject "WavelyAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578F3A15507DDFB0741FDC7D /* Debug */,
+				096438A28B036820E96947D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2DE12BFF60E825507B5F0A /* Project object */;
+}

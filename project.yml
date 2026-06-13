@@ -1,0 +1,65 @@
+name: WavelyAR
+options:
+  bundleIdPrefix: com.wavely
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    DEVELOPMENT_TEAM: HX76U69ZZ8
+    TARGETED_DEVICE_FAMILY: "1,2"
+    SWIFT_STRICT_CONCURRENCY: minimal
+
+targets:
+  WavelyAR:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: WavelyAR
+        excludes:
+          - "Resources/Info.plist"
+          - "Resources/Assets.xcassets"
+    info:
+      path: WavelyAR/Resources/Info.plist
+      properties:
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSCameraUsageDescription: "Wavely AR usa la fotocamera per la realtà aumentata e il rilevamento dei gesti della mano."
+        NSLocalNetworkUsageDescription: "Wavely AR si connette a Home Assistant sulla rete locale."
+        NSBonjourServices:
+          - "_home-assistant._tcp"
+        NSFaceIDUsageDescription: "Wavely AR usa Face ID per autorizzare il controllo delle serrature."
+        CFBundleURLTypes:
+          - CFBundleURLName: com.wavely.ar
+            CFBundleURLSchemes:
+              - wavelyar
+        UILaunchScreen:
+          UIColorName: Background
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wavely.ar
+        INFOPLIST_FILE: WavelyAR/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: HX76U69ZZ8
+        SWIFT_STRICT_CONCURRENCY: minimal
+      configs:
+        debug:
+          DEBUG_INFORMATION_FORMAT: dwarf
+        release:
+          DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+    dependencies: []

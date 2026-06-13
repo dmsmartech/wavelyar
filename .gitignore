@@ -1,0 +1,31 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcscheme
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.swp
+*~.nib
+
+# Build
+build/
+*.build/
+
+# Dependency managers
+Pods/
+.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Development notes (not part of the project)
+WavelyAR-Prompt.md
